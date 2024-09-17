@@ -15,7 +15,7 @@ var ingred2 = document.getElementById('form2').value;
 var ingred3 = document.getElementById('form3').value;
 var allIngreds = ingred + ",+" + ingred2 + ",+" + ingred3;
 var newSearch = document.getElementById('searchBtn');
-spoonacularAPIKey = "bf1d1d7e6f224d95844a5778f33c25c3";
+spoonacularAPIKey = "API Key";
 
 // Recipe search related elements
 var selectedRecipe;
@@ -24,7 +24,7 @@ var recipeSearchResultsEl = document.getElementById('search-results');
 var youtubeTutorialEl = document.getElementById('youtube-tutorial');
 
 // Video search related elements
-youtubeAPIKey = "AIzaSyC0DqtFEjtnNkGAZtRdvPzI6b0hTZjYTV4";
+youtubeAPIKey = "API key";
 var searchQuery;
 var searchResults;
 var videoID;
